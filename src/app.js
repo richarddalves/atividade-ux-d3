@@ -1,5 +1,7 @@
 const body = d3.select("body");
 
+const avisoJavascript = d3.select("#aviso-javascript").style("display", "none");
+
 // Estrelas no fundo da página
 const background = body
   .append("svg")
